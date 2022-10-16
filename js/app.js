@@ -55,6 +55,7 @@ function runStartDelay() {
                 document.querySelector('.popup').setAttribute('style', 'display: none;')
             }, 600);
             run()
+            soundClick()
 
         } else {
             if (click_count == 0) {
@@ -74,3 +75,9 @@ window.addEventListener("load", function (event) {
     runStartDelay()
     document.querySelector('.popup_img').setAttribute('style', 'transform: translate(0);')
 });
+
+function soundClick() {
+    var audio = document.getElementById('audio');
+    audio.play();
+}
+
