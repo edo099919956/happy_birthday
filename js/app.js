@@ -28,9 +28,9 @@ function run() {
     document.querySelector('.card').setAttribute('style', 'animation: card 2s linear 3s forwards;')
     /* https://mattboldt.com/typed.js/ */
     var typed = new Typed('#text', {
-        strings: ['Ծովի խաղաղ ջրերի պես Ժպիտը թող ողջունի քեզ Ինչքան լավ բան կա աշխարհում Ցանկանում եմ բոլորը քեզ: Ուզում եմ կյանում երջանիկ լինես, Ուզում եմ կյանքում արցունք չտեսնես, Ուզում եմ շողաս, ժպտաս ու ապրես Ուզում եմ սիրվես ու սիրված լինես:'],
+        strings: ['Пусть глаза всегда улыбаются, пусть сердце всегда поет, пусть на душе будет тепло и спокойно. Благополучия, добра и ярких моментов в жизни!'],
         startDelay: 7000,
-        typeSpeed: 50,
+        typeSpeed: 55,
         backSpeed: 0,
         fadeOut: true,
         loop: false,
